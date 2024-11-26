@@ -1,10 +1,10 @@
 const { choices } = require("yargs");
 
 let game = {
+    score: 0,
     currentGame: [],
     playerMoves: [],
-    choices: [],
-    score: 0,
+    choices: ["button1", "button2", "button3", "button4"],
 };
 
 
